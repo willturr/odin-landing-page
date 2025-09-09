@@ -1,0 +1,130 @@
+/* 1f2937 #E5E7EB */
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    padding-inline: 24px;
+    margin: 0;
+}
+
+.title-content {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    gap: 48px;
+
+    background-color: #1F2937;
+}
+
+.title-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 420px;
+    font-size: 48px;
+    font-weight: 900;
+
+    color: #F9FAF8;
+
+}
+
+.title-left div {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: 8px;
+    font-weight: 200;
+}
+
+.title-right {
+    background-color: gray;
+    width: 420px;
+    height: 240px;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 48px;
+}
+
+.blue-box-title {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 36px;
+    margin-top: 48px;
+}
+
+.blue-box-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    padding: 24px;
+}
+
+.blue-box-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.blue-box {
+    border: solid #3882F6 4px;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.blue-box-label {
+    width: 220px;
+    text-align: center;
+    color: #1F2937;
+    font-size: 18px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    padding-inline: 8px;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 16px;
+    width: 160px;
+    height: 32px;
+    border-radius: 8px;
+    border: none;
+
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #3882F6;
+}
