@@ -108,6 +108,27 @@ body {
     font-size: 18px;
 }
 
+.third-content {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 300px;
+    padding-block: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
+
 a {
     color: #E5E7EB;
     text-decoration: none;
